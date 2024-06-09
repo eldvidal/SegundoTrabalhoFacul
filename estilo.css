@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1F2020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #3C3C3C;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fafafa;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+input, select{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: transparent;
+    background: #1F2020;
+    color:#fafafa;
+}
+
+input::placeholder{
+    font-style: italic;
+    opacity: .7;
+}
+
+button {
+    background: #007BFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fafafa;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #007BFF;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgba(0, 123, 255, 0.1);
+    color:#007BFF;
+}
+
+#resultado h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #DEDEDE;
+    margin: 0px;
+}
+
+#valordosplanos {
+    padding: 10px;
+    border-radius: 5px;
+    color: #DEDEDE;
+}
